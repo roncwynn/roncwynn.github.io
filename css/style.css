@@ -24,17 +24,29 @@ body{
 .footer-container {
     display: flex;
     background-color: white;
-    justify-content: space-evenly;
-    padding-bottom: 2em;
-    color: darkgreen;
-    font-weight: bold;
-
+    justify-content: space-around;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 6em;
+    padding-right: 6em;
 }
-.footer-container a{
+
+/* .footer-container{
+    display: grid;
+    background-color: green;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 9em;
+    color: darkgreen;
+    grid-template-columns: 1fr 2fr 3fr;
+
+} */
+
+/* .footer-container a{
     text-decoration: none;
     color: seagreen;
     padding: .25em .25em
-}
+} */
 
 /* .footer-container a:hover{
     background-color: springgreen;
@@ -71,6 +83,7 @@ body{
     padding-top: 2em;
     color: darkgreen;
     font-weight: bold;
+    list-style: none;
 }
 
 .myBioLinks a{
@@ -83,9 +96,9 @@ body{
     background-color: springgreen;
 }
 
-.main-container li{
+/* .main-container li{
     list-style: none;
-}
+} */
 
 .main-container h3{
     color: rgb(3,71,9);
@@ -98,6 +111,23 @@ body{
 .myprojects-container{
     display: flex;
     justify-content: space-between;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.skillsList{
+    font-weight: bold;
+}
+
+.skillsList li {
+    list-style: square;
+    color: red;
+    margin-left: 1.5em;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 .nav-container{
