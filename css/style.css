@@ -23,7 +23,7 @@ body{
 
 .footer-container {
     display: flex;
-    background-color: white;
+    background-color: green;
     justify-content: space-around;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -31,22 +31,14 @@ body{
     padding-right: 6em;
 }
 
-/* .footer-container{
-    display: grid;
-    background-color: green;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 9em;
-    color: darkgreen;
-    grid-template-columns: 1fr 2fr 3fr;
 
-} */
-
-/* .footer-container a{
-    text-decoration: none;
+ .footer-container a{
+    /* text-decoration: none;
     color: seagreen;
-    padding: .25em .25em
-} */
+    padding: .25em .25em */
+    background-color: transparent;
+} 
+
 
 /* .footer-container a:hover{
     background-color: springgreen;
