@@ -20,15 +20,23 @@ body{
     margin: 3em 3em;
 }
 
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+    color: darkgreen;
+    font-weight: bold;
+
+}
 .footer-container a{
     text-decoration: none;
     color: seagreen;
     padding: .25em .25em
 }
 
-.footer-container a:hover{
+/* .footer-container a:hover{
     background-color: springgreen;
-}
+} */
 
 .main-container{
     width: 80%;
@@ -44,13 +52,18 @@ body{
 
 .aboutme-container{
     display: flex;
-    justify-content: space-between;
+    color:red;
+    justify-content: space-around;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .myBioLinks{
     display: flex;
     justify-content: space-around;
-    color: seagreen;
+    padding-top: 2em;
+    color: darkgreen;
+    font-weight: bold;
 }
 
 .myBioLinks a{
@@ -62,7 +75,6 @@ body{
 .myBioLinks a:hover{
     background-color: springgreen;
 }
-
 
 .main-container li{
     list-style: none;
@@ -97,6 +109,10 @@ body{
 }
 
 .techskills-container{
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+    padding-right: 2em;
     color: whitesmoke;
 }
 
