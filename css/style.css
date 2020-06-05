@@ -52,7 +52,7 @@ footer {
 
 .aboutme-container{
     display: flex;
-    color:red;
+    color: whitesmoke;
     justify-content: space-around;
     padding-left: 2em;
     padding-right: 2em;
