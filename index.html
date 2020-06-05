@@ -3,46 +3,93 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
+     <title>Ron Wynn - Document</title>
+     <link rel="font" href='https://fonts.googleapis.com/css?family=Roboto:400,700');> <!--copied line-->
+     <link rel="stylesheet" href="\css\layout.css">
+     <link rel="stylesheet" href="\css\style.css">
 </head>
 <body>
 
-  <header>
-    <nav>
-      <a href="">About Me</a>
-      <a href="">My Projects</a>
+  <header class="header-container">
+    <h1 title="Rons Page">Ron Wynn</h1>
+    <nav class="nav-container">
+      <a href="#aboutme">About Me</a>
+      <a href="#myprojects">My Projects</a>
+      <a href="">Contact Me</a>
+      <a href="">GitHub??</a>
     </nav>
   </header>
 
-  <main>
+  <main class="main-container">
 
-    <h1 title="Rons Page">Ron Wynn</h1>
     
-    <section>
+    <section id="aboutme" class="aboutme-container">
       <h3>About Me</h3>
-      <ul>
-        <li>bio info</li> <!--article tag here-->  
-        <li>photo</li>
-        <li>contact info</li>
-        <li>linked in link</li>
-        <li>git hub link</li>
-        <li>list of skills</li>
-        <li>hobbies</li>
-        <li>link to resume download</li>
-      </ul>
+      <img class="meImage" src="/images/personalphoto.jpg" alt="Personal Photo" width="150px">
+      <article>
+          Experienced Full Stack software developer with over 25 years of IT experience ranging from senior client/server developer to SharePoint Architect and Practice Director.  After years in higher level managerial type positions I am looking to get back toward my roots and passion of pure software development.
+      </article>
     </section>
+    <div class="aboutmelinks">
+      <ul>
+        <li>My Bio Info</li> <!--article tag here???-->  
+        <li>My Contact Info</li>
+        <li><a href="/documents/Ron Wynn(resume).pdf">My Resume</a></li>
+      </ul>
+    </div>
+
+    <section class="techskills-container">
+      <h3>Technical Skills</h3>
+      <article>
+          C# • .NET Core • Active Server Pages / ASP.net • JavaScript • Flexbox • MVC • HTML • CSS • Grid • TDD • Agile (Scrum) • Object Oriented Programming (OOP) • AJAX • JSON • React • Restful APIs • Responsive Design / Mobile • Structured Query Language (SQL) • Relational Databases / MS SQL • Source Control / GitHub • Visual Studio • Visual Studio Code • PowerShell • SharePoint Enterprise Server (Architecture, Configuration, Administration, Development) •  Windows Server  • SQL Server • VMware • Metalogix • Nintex Forms and Workflow • OnBase
+      </article>
+    </section>
+
+  <!--
+    <section class="managementskills-container">
+      <h3>Managerial Skills</h3>
+      <article>
+          Department Management • Strategic Planning • Risk Management • Performance Reviews • Large Group Presentations • Hiring & Separating • Project Management • Requirements Gathering • Whiteboarding • Effort Estimation • Problem Solving • Quality Assurance • User Training
+      </article>
+    </section>
+  -->
     
-    <section>
-      <h3>My Projects</h3>
-      <article>project 1 - link to github, screenshot, skills/tech used</article>
-      <article>project 2</article>
-      <article>project 3</article>
+  <h3>My Projects</h3>
+    <section id="myprojects" class="myprojects-container">
+      <article>
+        <h4>Virtual Pet</h4>
+        <p>Virtual Pet is a blah blah blah</p>
+        <ul>
+          <li><a href"">GitHub Repository</a></li>
+          <li>screenshot</li>
+          <li>skills used - C#.NET</li>
+        </ul>
+      </article>
+      <article>
+        <h4>Project 2</h4>
+        <p>The second project is blah blah blah</p>
+        <ul>
+          <li><a href"">GitHub Repository</a></li>
+          <li>skills used - C#.NET</li>
+        </ul>
+      </article>
+      <article>
+        <h4>Project 3</h4>
+        <p>The third project is also blah blah blah</p>
+        <ul>
+          <li><a href"">GitHub Repository</a></li>
+          <li>skills used - C#.NET</li>
+        </ul>
+      </article>
     </section>
     
   </main>
   
-  <footer>
-    email address : linkedIn link : github link
+  <footer class="footer-container">
+    <nav>
+      <a href="mailto:rcwynn@gmail.com">eMail me</a>
+      <a href="http://www.linkedin.com/in/roncwynn">LinkedIn</a>
+    </nav>
   </footer>
 
 </body>

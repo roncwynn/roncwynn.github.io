@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    color: green;
+}
+
+body{
+    background-image: url(/images/standrews.jpg);
+    background-size: cover;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 3em;
+}
+
+.footer-container a{
+    text-decoration: none;
+    color: seagreen;
+    padding: .25em .25em
+}
+
+.footer-container a:hover{
+    background-color: springgreen;
+}
+
+.main-container{
+    width: 80%;
+    margin: 2em auto;
+    background-color: rgba(101, 121, 101, 0.4);
+
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    grid-row-gap: 2em;
+    padding: 2em 2em;
+}
+
+.aboutme-container{
+    display: flex;
+    padding: 1em;
+}
+
+.aboutmelinks ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 2em;
+    color: rgb(4, 14, 8);
+}
+
+.main-container li{
+    list-style: none;
+}
+
+.main-container h3{
+    color: rgb(3,71,9);
+}
+
+.main-container h4{
+    color: rgb(5, 24, 5);
+}
+
+.myprojects-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-container a{
+    text-decoration: none;
+    color: seagreen;
+    padding: .25em .25em
+}
+
+.nav-container a:hover{
+    background-color: springgreen;
+}
+
+.techskills-container{
+    color: whitesmoke;
+}
+
+
+
