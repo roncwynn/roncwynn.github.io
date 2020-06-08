@@ -5,6 +5,13 @@
     padding: 0;
 }
 
+.aboutme-container{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
 .header-container{
     margin-top: 2em;
 }
@@ -25,12 +32,6 @@
     padding: 2em 2em;
 }
 
-.aboutme-container{
-    display: flex;
-    justify-content: space-around;
-    padding-left: 2em;
-    padding-right: 2em;
-}
 
 .myBioText{
     margin-left: 2em;
@@ -54,15 +55,6 @@
     margin-right: 2em;
 }
 
-.skillsList li {
-    margin-left: 1.5em;
-}
-
-.project{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-}
-
 .nav-container{
     position: fixed;
     top:0;
@@ -74,6 +66,15 @@
 
 .nav-container a{
     padding: .25em .25em
+}
+
+.project{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.skillsList li {
+    margin-left: 1.5em;
 }
 
 .techskills-container{

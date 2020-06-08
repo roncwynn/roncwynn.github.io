@@ -1,12 +1,11 @@
+body{
+    background-image: url(/images/StAndrews.jpg);
+    background-size: cover;
+}
 
 h1{
     color: green;
     text-align: center;
-}
-
-body{
-    background-image: url(/images/StAndrews.jpg);
-    background-size: cover;
 }
 
 .footer-container {
@@ -19,6 +18,14 @@ body{
 
 .main-container{
     background-color: rgba(101, 121, 101, 0.4);
+}
+
+.main-container h3{
+    color: rgb(5, 71, 5);
+}
+
+.main-container h4{
+    color: rgb(3, 44, 3);
 }
 
 .myBioText{
@@ -41,16 +48,24 @@ body{
     background-color: olivedrab;
 }
 
-.main-container h3{
-    color: rgb(5, 71, 5);
+.nav-container{
+    background-color: green;
 }
 
-.main-container h4{
-    color: rgb(3, 44, 3);
+.nav-container a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
 }
 
-.myprojects-container h4:hover{
-    /* font-weight: bolder; */
+.nav-container a:hover{
+     background-color: olivedrab; 
+}
+
+
+.projectDescription{
+    color:whitesmoke;
+    color: rgb(1, 29, 1);
 }
 
 .skillsList{
@@ -67,37 +82,15 @@ body{
     color: whitesmoke;
 }
 
-.projectDescription{
-    color:whitesmoke;
-    color: rgb(1, 29, 1);
-}
-
-.nav-container{
-    background-color: green;
-}
-
-.nav-container a{
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
-}
-
-.nav-container a:hover{
-     background-color: olivedrab; 
-}
-
 .techskills-container{
     /* color: rgb(3, 44, 3); */
     color: rgb(1, 29, 1);
     font-weight: bold;
 }
 
-.techSkillsList{
-    /* list-style: none; */
-}
-
 .techSkillsList li:hover{
     color: whitesmoke;
+    color: red;
 }
 
 
