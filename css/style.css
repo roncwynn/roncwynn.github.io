@@ -22,7 +22,7 @@ body{
 }
 
 .myBioText{
-    color:red;
+    color: rgb(3, 44, 3);
 }
 
 .myBioLinks{
@@ -33,22 +33,24 @@ body{
 
 .myBioLinks a{
     text-decoration: none;
-    color: seagreen;
+    color: darkgreen;
+    
 }
 
 .myBioLinks a:hover{
-    background-color: springgreen;
+    background-color: olivedrab;
 }
 
 .main-container h3{
-    color: rgb(3,71,9);
+    color: rgb(5, 71, 5);
 }
 
 .main-container h4{
-    color: rgb(5, 24, 5);
+    color: rgb(3, 44, 3);
 }
 
-.myprojects-container{
+.myprojects-container h4:hover{
+    /* font-weight: bolder; */
 }
 
 .skillsList{
@@ -56,11 +58,18 @@ body{
 }
 
 .skillsList li {
-    list-style: square;
-    color: red;
+    /* list-style: square; */
+    color: rgb(1, 43, 1);
+    color: rgb(1, 29, 1);
 }
 
-.project{
+.skillsList li:hover{
+    color: whitesmoke;
+}
+
+.projectDescription{
+    color:whitesmoke;
+    color: rgb(1, 29, 1);
 }
 
 .nav-container{
@@ -70,18 +79,25 @@ body{
 .nav-container a{
     text-decoration: none;
     color: white;
+    font-weight: bolder;
 }
 
 .nav-container a:hover{
-    background-color: springgreen;
+     background-color: olivedrab; 
 }
 
 .techskills-container{
-    color: whitesmoke;
+    /* color: rgb(3, 44, 3); */
+    color: rgb(1, 29, 1);
+    font-weight: bold;
 }
 
 .techSkillsList{
-    list-style: none;
+    /* list-style: none; */
+}
+
+.techSkillsList li:hover{
+    color: whitesmoke;
 }
 
 
