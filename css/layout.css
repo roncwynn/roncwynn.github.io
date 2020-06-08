@@ -1,1 +1,89 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding: 0;
+}
 
+.header-container{
+    margin-top: 2em;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+.main-container{
+    width: 80%;
+    margin: .5em auto;
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    grid-row-gap: 2em;
+    padding: 2em 2em;
+}
+
+.aboutme-container{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.myBioText{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.myBioLinks{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+}
+
+.myBioLinks a{
+    padding: .25em .25em
+}
+
+.myprojects-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.skillsList li {
+    margin-left: 1.5em;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.nav-container{
+    position: fixed;
+    top:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 12em;
+}
+
+.nav-container a{
+    padding: .25em .25em
+}
+
+.techskills-container{
+    display: flex;
+    align-items: center;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.techSkillsList{
+    display: flex;
+    justify-content: space-evenly;
+}
