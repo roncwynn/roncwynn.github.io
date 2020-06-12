@@ -78,13 +78,14 @@
 }
 
 .techskills-container{
-    /* display: flex; */
-    align-items: center;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    flex-direction: row; */
     padding-left: 4em;
     padding-right: 1em;
 }
 
-.techSkillsList{
+ .techSkillsList{
     display: flex;
     justify-content: space-around;
-}
+} 
