@@ -85,7 +85,14 @@
     padding-right: 1em;
 }
 
+.SkillsLists{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
  .techSkillsList{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    list-style-type: disc;
 } 
