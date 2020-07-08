@@ -3,6 +3,20 @@ body{
     background-size: cover;
 }
 
+/* .background {
+    position: relative;
+    overflow: hidden;
+}
+
+.backgroundImage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: .6;
+} */
+
 h1{
     color: green;
     text-align: center;
@@ -21,7 +35,9 @@ h1{
 }
 
 .main-container h3{
-    color: rgb(5, 71, 5);
+    /* color: rgb(5, 71, 5); */
+    color: black;
+    font-size: x-large;
 }
 
 .main-container h4{
@@ -30,18 +46,19 @@ h1{
 
 .myBioText{
     color: rgb(3, 44, 3);
+    color: black;
+    font-weight: bold;
 }
 
 .myBioLinks{
-    color: darkgreen;
     font-weight: bold;
     list-style: none;
+    font-size: x-large;
 }
 
 .myBioLinks a{
     text-decoration: none;
-    color: darkgreen;
-    
+    color: black;
 }
 
 .myBioLinks a:hover{
@@ -82,7 +99,7 @@ h1{
     color: whitesmoke;
 }
 
-.techskills-container{
+.techskills-container, .leadskills-container{
     /* color: rgb(3, 44, 3); */
     color: rgb(1, 29, 1);
     font-weight: bold;
