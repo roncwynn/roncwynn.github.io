@@ -101,3 +101,9 @@
     flex-direction: column;
     list-style-type: disc;
 } 
+
+.spSkills{
+    padding-left: 2em;
+    list-style: circle;
+
+}
