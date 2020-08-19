@@ -1,5 +1,6 @@
 body{
-    background-image: url(/images/StAndrews.jpg);
+     background-image: url(/images/StAndrews.jpg); 
+    /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/StAndrews.jpg); */
     background-size: cover;
 }
 
@@ -31,7 +32,7 @@ h1{
 } 
 
 .main-container{
-    background-color: rgba(101, 121, 101, 0.4);
+    background-color: rgba(101, 121, 101, 0.9);
 }
 
 .main-container h3{
@@ -46,7 +47,7 @@ h1{
 
 .myBioText{
     color: rgb(3, 44, 3);
-    color: black;
+    /* color: black; */
     font-weight: bold;
 }
 
@@ -62,7 +63,8 @@ h1{
 }
 
 .myBioLinks a:hover{
-    background-color: olivedrab;
+    /* background-color: olivedrab; */
+    color: blue;
 }
 
 .nav-container{
@@ -79,10 +81,19 @@ h1{
      background-color: olivedrab; 
 }
 
+.project a {
+    color:  rgb(3, 44, 3);
+}
+
+/* .project a:hover{
+    color: blue;
+} */
 
 .projectDescription{
-    color:whitesmoke;
+    /* color:whitesmoke; */
     color: rgb(1, 29, 1);
+    font-weight: bold;
+    
 }
 
 .skillsList{
@@ -91,24 +102,54 @@ h1{
 
 .skillsList li {
     /* list-style: square; */
-    color: rgb(1, 43, 1);
+    /* color: rgb(1, 43, 1);
     color: rgb(1, 29, 1);
+    color: rgb(3, 44, 3); */
+    /* color: red; */
 }
 
-.skillsList li:hover{
-    color: whitesmoke;
+/* .skillsList li:hover, .project a:hover{
+    color: whitesmoke; 
+    color: blue;
+} */
+
+.project a:hover{
+    color: blue;
 }
+
+/* .skillsList li:hover, .techSkillsList li:hover, .project a:hover{
+    color: blue;
+} */
 
 .techskills-container, .leadskills-container{
     /* color: rgb(3, 44, 3); */
     color: rgb(1, 29, 1);
+    /* color: rgba(60, 207, 47, 0.801); */
     font-weight: bold;
     font-size: larger;
 }
 
-.techSkillsList li:hover{
+/* .techSkillsList li:hover{
     color: whitesmoke;
+} */
+
+.skillDetailsText{
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(1, 29, 1);;
+    color:whitesmoke;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
 }
+
+.skillDetails:hover .skillDetailsText {
+    visibility: visible;
+  }
 
 
 
