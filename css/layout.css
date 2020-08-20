@@ -76,13 +76,11 @@
 
 .leadskills-container{
     padding-left: 15em;
-    padding-right: 5em;
 }
 
 .SkillsLists{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
 }
 
  .techSkillsList{
