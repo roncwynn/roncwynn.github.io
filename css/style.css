@@ -1,21 +1,8 @@
 body{
-    background-image: url(/images/StAndrews.jpg);
+     background-image: url(/images/StAndrews.jpg); 
+    /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/StAndrews.jpg); */
     background-size: cover;
 }
-
-/* .background {
-    position: relative;
-    overflow: hidden;
-}
-
-.backgroundImage {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    opacity: .6;
-} */
 
 h1{
     color: green;
@@ -31,7 +18,7 @@ h1{
 } 
 
 .main-container{
-    background-color: rgba(101, 121, 101, 0.4);
+    background-color: rgba(101, 121, 101, 0.9);
 }
 
 .main-container h3{
@@ -46,7 +33,7 @@ h1{
 
 .myBioText{
     color: rgb(3, 44, 3);
-    color: black;
+    /* color: black; */
     font-weight: bold;
 }
 
@@ -58,11 +45,13 @@ h1{
 
 .myBioLinks a{
     text-decoration: none;
-    color: black;
+    /* color:rgb(6, 128, 6); */
+    color: rgba(6, 110, 6, 0.753);
+
 }
 
-.myBioLinks a:hover{
-    background-color: olivedrab;
+.myBioLinks a:hover, .project a:hover{
+    color: blue;
 }
 
 .nav-container{
@@ -79,36 +68,69 @@ h1{
      background-color: olivedrab; 
 }
 
+.project a {
+    /* color:  rgb(3, 44, 3); */
+    color: rgba(6, 110, 6, 0.753);
+}
 
 .projectDescription{
-    color:whitesmoke;
+    /* color:whitesmoke; */
     color: rgb(1, 29, 1);
+    font-weight: bold;
 }
 
 .skillsList{
     font-weight: bold;
 }
 
-.skillsList li {
-    /* list-style: square; */
+/* .skillsList li {
+    list-style: square;
     color: rgb(1, 43, 1);
     color: rgb(1, 29, 1);
-}
+    color: rgb(3, 44, 3);
+} */
 
-.skillsList li:hover{
-    color: whitesmoke;
-}
+/* .skillsList li:hover, .project a:hover{
+    color: whitesmoke; 
+    color: blue;
+} */
+
+/* .project a:hover{
+    color: blue;
+} */
+
+/* .skillsList li:hover, .techSkillsList li:hover{
+    color: blue;
+} */
 
 .techskills-container, .leadskills-container{
     /* color: rgb(3, 44, 3); */
     color: rgb(1, 29, 1);
+    /* color: rgba(60, 207, 47, 0.801); */
     font-weight: bold;
     font-size: larger;
 }
 
-.techSkillsList li:hover{
+/* .techSkillsList li:hover{
     color: whitesmoke;
+} */
+
+/* .skillDetailsText{
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(1, 29, 1);;
+    color:whitesmoke;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    position: absolute;
+    z-index: 1;
 }
+
+.skillDetails:hover .skillDetailsText {
+    visibility: visible;
+} */
 
 
 
